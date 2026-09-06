@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clipper — нарезка своих видео в короткие ролики</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 40rem; margin: 0 auto; padding: 3rem 1.25rem;
+    font: 17px/1.6 -apple-system, "Segoe UI", system-ui, sans-serif;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.5rem; }
+  .lead { opacity: .75; margin-top: 0; }
+  ol { padding-left: 1.2rem; }
+  li { margin: .4rem 0; }
+  footer { margin-top: 3rem; font-size: .9rem; opacity: .7; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+
+<h1>Clipper</h1>
+<p class="lead">Личный инструмент: нарезает длинные видео владельца
+на короткие вертикальные ролики.</p>
+
+<h2>Что он делает</h2>
+<p>Программа работает на домашнем компьютере владельца. Она берёт его длинные
+видео — записи разговоров, интервью, шоу, — распознаёт речь, находит
+самодостаточные фрагменты, кадрирует их в вертикальный формат 9:16,
+добавляет субтитры и выравнивает громкость.</p>
+
+<h2>Как используется TikTok</h2>
+<ol>
+  <li>Владелец один раз входит в свой аккаунт TikTok через официальный
+      механизм авторизации.</li>
+  <li>Программа запрашивает единственное разрешение — <code>video.upload</code>.</li>
+  <li>Готовый ролик отправляется в <strong>черновики</strong> владельца
+      через Content Posting API.</li>
+  <li>Публикацию владелец завершает сам, вручную, в приложении TikTok.</li>
+</ol>
+<p>Программа ничего не публикует самостоятельно, не читает чужой контент
+и не работает с аккаунтами других людей.</p>
+
+<h2>Кто пользуется</h2>
+<p>Только владелец программы, со своим собственным аккаунтом. Это не сервис
+и не продукт для сторонних пользователей: регистрации нет, аккаунтов нет,
+сервера нет.</p>
+
+<footer>
+  <p><a href="terms.html">Условия использования</a> &middot;
+     <a href="privacy.html">Политика конфиденциальности</a></p>
+  <p>Связь: buus2024buisnes@gmail.com </p>
+</footer>
+
+</body>
+</html>
